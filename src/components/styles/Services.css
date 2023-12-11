@@ -1,0 +1,28 @@
+
+.services {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.services section {
+  display: none;
+  margin-bottom: 20px;
+}
+
+.services section:first-child {
+  display: block;
+}
+
+.services h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.services button {
+  margin-bottom: 10px;
+}
+
+.services .active {
+  display: block;
+}

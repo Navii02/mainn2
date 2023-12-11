@@ -1,0 +1,46 @@
+/* adminPage.css */
+
+.admin-page {
+    display: flex;
+  }
+  
+  .request-list,
+  .approved-list {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .request-list h2,
+  .approved-list h2 {
+    margin-bottom: 10px;
+  }
+  
+  .request-list > div,
+  .approved-list > div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .request-list > div h3,
+  .approved-list > div h3 {
+    margin-bottom: 5px;
+  }
+  
+  .approved-list > div p {
+    color: green;
+  }
+  
+  .button-container {
+    margin-top: 10px;
+  }
+  
+  .button-container button {
+    margin-right: 10px;
+  }
+  
+  
+  
+  
+  
+  
